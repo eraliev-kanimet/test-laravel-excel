@@ -17,17 +17,9 @@ touch database/database.sqlite
 ```
 
 ```
-php artisan migrate --seed
+php artisan migrate
 ```
 
 ```
-npm install 
-```
-
-```
-npm run build
-```
-
-```
-php artisan serve
+php artisan import:report
 ```
